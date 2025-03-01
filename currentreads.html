@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bookwyrm's Library - Book Hoard section showcasing current reads, recommendations, and reviews.">
+    <title>Book Hoard - Bookwyrm's Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#navbar").slicknav({ prependTo: "#mobile_menu" });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="dragon-logo.png" alt="Bookwyrm's Library Logo">
+            <h1>Bookwyrm's Library</h1>
+        </div>
+        <nav id="mobile_menu"></nav>
+        <nav id="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="currentreads.html">Book Hoard</a></li>
+                <li><a href="Events.html">Event Page</a></li>
+                <li><a href="tbr.html">To Be Read</a></li>
+                <li><a href="recentlyadded.html">Recently Added</a></li>
+                <li><a href="thanksto.html">Thanks To</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: Book Hoard -->
+    <main>
+        <section class="current-reads">
+            <h2>Books Currently Being Read by the BookWyrm</h2>
+            <div class="book-list">
+                <!-- Example Book -->
+                <div class="book-card">
+                    <img src="imgs/pern.jpg" alt="Dragon Riders of Pern">
+                    <div class="book-info">
+                        <h3>Dragon Riders of Pern</h3>
+                        <p>A mystical tale about a dragon exploring unknown lands.</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="imgs/dragonwatch.jpg" alt="DragonWatch">
+                    <div class="book-info">
+                        <h3>DragonWatch</h3>
+                        <p>A story about an ancient civilization and its secrets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="current-reads">
+            <h2>Recommended Books by the BookWyrm</h2>
+            <div class="book-list">
+                <!-- Example Book Recommendation -->
+                <div class="book-card">
+                    <img src="imgs/hmsdragon.jpg" alt="His Majesty's Dragon By Naomi Novic">
+                    <div class="book-info">
+                        <h3>His Majesty's Dragon</h3>
+                        <p>This tale of dragons and humans is an epic saga of adventure and intrigue.</p>
+                        <div class="book-review">
+                            <p>"A masterpiece of world-building and storytelling. Truly captivating!"</p>
+                            <p><strong>- BookWyrm</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="imgs/dragonchamp.jpg" alt="Dragon Champion by E.E. Knight">
+                    <div class="book-info">
+                        <h3>Dragon Champion</h3>
+                        <p>Follows the journey of an orphaned dragon looking for his kind.</p>
+                        <div class="book-review">
+                            <p>"A thrilling and emotional journey through the heavens and earth."</p>
+                            <p><strong>- BookWyrm</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-media">
+            <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,490 @@
+/* General styles for dark academia theme */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1c1c1c;
+    color: #d4af37;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px black
+}
+
+header {
+    background-color: #222222;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('imgs/bookrow.jpeg');
+    background-repeat: no-repeat;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #d4af37;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d4af37;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d4af37;
+}
+
+.hero {
+    background-image: url('library-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    color: #d4af37;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+}
+
+.featured-book {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-book h2 {
+    font-size: 2.5rem;
+    color: #d4af37;
+}
+
+.book-card {
+        margin: auto;
+        width: 50%;
+        border: 3px solid #4B302A;
+        padding: 0px;
+      
+}
+
+.book-card img {
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.book-info {
+    max-width: 300px;
+}
+
+.book-info h3 {
+    font-size: 1.8rem;
+}
+
+button {
+    background-color: #d4af37;
+    color: #1c1c1c;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #b2872e;
+}
+
+footer {
+    background-color: #222222;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: #d4af37;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer p {
+    color: #f5f5f5;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* BOOK HOARD SECTION */
+.current-reads, .user-reviews {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.book-card {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: #f5f5f5;
+}
+
+.book-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-info {
+    padding: 15px;
+}
+
+.book-info h3 {
+    font-size: 1.5rem;
+    color: #d4af37;
+}
+
+.book-info p {
+    font-size: 1rem;
+    color: #f5f5f5;
+}
+
+.book-review {
+    margin-top: 10px;
+    font-style: italic;
+    color: #d4af37;
+}
+
+.user-reviews .review-form {
+    margin-bottom: 40px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.user-reviews form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.user-reviews form input, .user-reviews form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #444;
+    border: 1px solid #555;
+    color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.user-reviews form button {
+    background-color: #d4af37;
+    color: #1c1c1c;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.user-reviews form button:hover {
+    background-color: #b2872e;
+}
+
+.reviews-list {
+    margin-top: 30px;
+}
+
+.review-card {
+    background-color: #2b2b2b;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #f5f5f5;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.review-card h3 {
+    font-size: 1.5rem;
+    color: #d4af37;
+}
+
+.review-card p {
+    font-size: 1rem;
+    color: #f5f5f5;
+}
+
+/* EVENT PAGE SECTION */
+.event-calendar {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.calendar-container {
+    position: relative;
+    display: inline-block;
+}
+
+.static-calendar {
+    max-width: 100%;
+ /* Adjust based on the image's aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-description {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    font-style: italic;
+}
+
+.event-list {
+    padding: 40px 20px;
+}
+
+.event-card {
+    background-color: #2b2b2b;
+    color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-card h3 {
+    font-size: 1.8rem;
+    color: #d4af37;
+}
+
+.event-card p {
+    font-size: 1rem;
+    color: #f5f5f5;
+}
+
+.event-card p strong {
+    color: #d4af37;
+}
+
+
+/* TBR PAGE */
+.to-be-read {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.to-be-read h2 {
+    font-size: 2rem;
+    color: #d4af37;
+    margin-bottom: 30px;
+}
+
+
+.book-card {
+    background-color: #2b2b2b;
+    color: #f5f5f5;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+.book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.book-card h3 {
+    font-size: 1.2rem;
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    font-size: 1rem;
+    color: #f5f5f5;
+}
+
+.book-card p strong {
+    color: #d4af37;
+}
+
+
+/* Recently Added Page Section */
+.recently-added {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.recently-added h2 {
+    font-size: 2rem;
+    color: #d4af37;
+    margin-bottom: 30px;
+}
+
+.new-releases, .recent-additions {
+    margin-bottom: 40px;
+}
+
+.new-releases h3, .recent-additions h3 {
+    font-size: 1.6rem;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.book-card {
+    background-color: #2b2b2b;
+    color: #f5f5f5;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+.book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.book-card h3 {
+    font-size: 1.2rem;
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    font-size: 1rem;
+    color: #f5f5f5;
+}
+
+.book-card p strong {
+    color: #d4af37;
+}
+
+/* Thanks To Page Section */
+.thanks-to {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.thanks-to h2 {
+    font-size: 2rem;
+    color: #d4af37;
+    margin-bottom: 30px;
+}
+
+.thanks-to h3 {
+    font-size: 1.6rem;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+.volunteers, .artists, .website-credit {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    color: #d4af37;
+}
+
+.website-credit p {
+    font-size: 1.1rem;
+    color: #f5f5f5;
+}
+
+footer {
+    background-color: #2b2b2b;
+    padding: 20px;
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer .social-media a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
+
+/* MOBILE FRIENDLY SHINANIGINES */
+
+#mobile_menu {
+    display: none
+}
+
+@media (max-width: 700px) {
+    #navbar {
+        display: none
+    }
+
+    #mobile_menu {
+        display: block;
+    }
+
+    .left-column,
+    .center-column,
+    .right-column {
+        width: 100%;
+    }
+
+    .left-column>h2,
+    .center-column>h2,
+    .right-column>h2 {
+        height: initial;
+    }
+}
