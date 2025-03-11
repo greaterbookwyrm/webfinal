@@ -20,6 +20,7 @@ header {
 
 header .logo img {
     height: 50px;
+    font-family: "ro", cursive;
 }
 
 header h1 {
@@ -460,6 +461,12 @@ footer .social-media a {
 footer .social-media a:hover {
     text-decoration: underline;
 }
+
+.rouge-script-regular {
+    font-family: "Rouge Script", cursive;
+    font-weight: 1000;
+    font-style: normal;
+  }
 
 /* MOBILE FRIENDLY SHINANIGINES */
 
